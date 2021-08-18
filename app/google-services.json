@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521342016295",
+    "project_id": "parkalot-904e9",
+    "storage_bucket": "parkalot-904e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521342016295:android:d2856d42aadaa37591e702",
+        "android_client_info": {
+          "package_name": "com.bangkit.parkalot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521342016295-u1o8i712tccngd5u2kv129sbpuspthk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfBt6Ezo6tGbbIEEGfP2B1AOOV3Y1BAFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521342016295-u1o8i712tccngd5u2kv129sbpuspthk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

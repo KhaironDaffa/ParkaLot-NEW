@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ParkaLot</string>
+
+    <string name="parkText">Jakarta</string>
+    <string name="parkingLot">Parking Lot A</string>
+
+    <string name="chooseParkDesc">Choose Parking Lot</string>
+    <string name="imgParkDetailsDesc">Parking Lot Image Details</string>
+    <string name="btnBackDesc">Back Button To Home</string>
+
+    <string name="A1">A1</string>
+    <string name="A2">A2</string>
+    <string name="A3">A3</string>
+    <string name="A4">A4</string>
+    <string name="A5">A5</string>
+    <string name="A6">A6</string>
+
+    <string name="location">Location = </string>
+    <string name="PIM">Pondok Indah Mall</string>
+
+    <string name="price">Price = </string>
+    <string name="priceTag">Rp.5000/Hr</string>
+
+    <string name="logIn">Log In</string>
+    <string name="googleLog">Log In With Google</string>
+    <string name="separatorText">Log In Via</string>
+
+    <string name="noAccount">Don\'t Have An Account?</string>
+    <string name="signUp">Sign Up</string>
+    <string name="accountExist">Already Have An Account?</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="signOut">Sign Out</string>
+    <string name="profileName">Profile Name</string>
+</resources>
