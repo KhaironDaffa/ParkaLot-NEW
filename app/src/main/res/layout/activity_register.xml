@@ -57,12 +57,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonSignUp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="130dp"
         android:text="@string/signUp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/purple_main"
         app:layout_constraintBottom_toTopOf="@id/AccountExist" />
 
     <TextView

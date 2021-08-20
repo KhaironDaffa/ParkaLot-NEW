@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable-v24/ic_google.xml" value="0.2703125" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable/Round.xml" value="0.2703125" />
+        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable/custom_button.xml" value="0.2703125" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable/home_background.xml" value="0.2703125" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable/ic_account.xml" value="0.2703125" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/drawable/line.xml" value="0.2703125" />
@@ -11,8 +13,8 @@
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_home.xml" value="0.20833333333333334" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_parking.xml" value="0.23867753623188406" />
         <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_profile.xml" value="0.20833333333333334" />
-        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_register.xml" value="0.20833333333333334" />
-        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_sign.xml" value="0.20833333333333334" />
+        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Dandi/Programs/Android Related/Projects/ParkaLot-App-master/app/src/main/res/layout/activity_sign.xml" value="0.2" />
       </map>
     </option>
   </component>

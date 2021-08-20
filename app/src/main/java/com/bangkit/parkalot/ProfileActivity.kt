@@ -1,8 +1,8 @@
 package com.bangkit.parkalot
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.bangkit.parkalot.databinding.ActivityProfileBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -32,5 +32,8 @@ class ProfileActivity : AppCompatActivity() {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
+
+        val currentUser = auth.currentUser
+
     }
 }

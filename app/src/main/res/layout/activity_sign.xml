@@ -57,12 +57,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonLog"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="10dp"
         android:text="@string/logIn"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:backgroundTint="@color/purple_main"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/separatorText" />
 
     <View
@@ -82,7 +87,7 @@
         android:text="@string/separatorText"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/facebookButton"
+        app:layout_constraintBottom_toTopOf="@id/googleButton"
         app:layout_constraintEnd_toStartOf="@id/lineRight"
         app:layout_constraintStart_toEndOf="@id/lineLeft" />
 
@@ -95,40 +100,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/separatorText" />
 
-    <ImageButton
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/googleButton"
-        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="25dp"
-        android:background="@drawable/round"
-        android:scaleType="fitCenter"
-        android:src="@drawable/google_logo_history_png_2603"
-        app:layout_constraintBottom_toBottomOf="@id/facebookButton"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/facebookButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="80dp"
-        android:background="@drawable/round"
-        android:scaleType="fitCenter"
-        android:src="@drawable/logo_facebookpng_32202"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/noAccount"
-        app:layout_constraintEnd_toStartOf="@id/appleButton"
-        app:layout_constraintStart_toEndOf="@id/googleButton" />
-
-    <ImageButton
-        android:id="@+id/appleButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="5dp"
-        android:background="@drawable/round"
-        android:scaleType="fitCenter"
-        android:src="@drawable/png_apple_logo_9708"
-        app:layout_constraintBottom_toBottomOf="@id/facebookButton"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:text="@string/sign_in_with_google"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        android:drawableStart="@drawable/ic_google"
+        android:backgroundTint="#fff"
+        android:background="@drawable/custom_button"
+        android:layout_marginBottom="60dp"/>
 
     <TextView
         android:id="@+id/noAccount"

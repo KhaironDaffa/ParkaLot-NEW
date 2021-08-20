@@ -28,10 +28,13 @@
     <string name="noAccount">Don\'t Have An Account?</string>
     <string name="signUp">Sign Up</string>
     <string name="accountExist">Already Have An Account?</string>
+    <string name="sign_in_with_google">Sign in With Google</string>
 
     <string name="email">Email</string>
     <string name="password">Password</string>
 
     <string name="signOut">Sign Out</string>
     <string name="profileName">Profile Name</string>
+
+    <string name="clientId">521342016295-u1o8i712tccngd5u2kv129sbpuspthk0.apps.googleusercontent.com</string>
 </resources>
